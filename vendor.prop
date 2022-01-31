@@ -1,0 +1,4 @@
+# Audio
+ro.config.vc_call_vol_steps=9
+persist.vendor.audio.voicecall.speaker.stereo=true
+
