@@ -123,16 +123,20 @@ vendor/firmware/tfa98xx.cnt
 
 
 # Camera
-system_ext/lib64/libCameraMDMHelper.so
-system_ext/lib64/vendor.oneplus.hardware.camera@1.0-adapter-helper.so
-system_ext/lib64/vendor.oneplus.hardware.camera@1.0.so
-system_ext/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0-adapter-helper.so
-system_ext/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so
 vendor/bin/hw/vendor.oneplus.hardware.camera@1.0-service
 vendor/bin/hw/vendor.oneplus.hardware.CameraMDMHIDL@1.0-service
 vendor/etc/init/vendor.oneplus.hardware.camera@1.0-service.rc
 vendor/etc/init/vendor.oneplus.hardware.CameraMDMHIDL@1.0-service.rc
 vendor/lib/libcamxexternalformatutils.so
+vendor/lib/libcamxfacialfeatures.so
+vendor/lib/libcamxfdalgo.so
+vendor/lib/libcamxfdengine.so
+vendor/lib/libcamxifestriping.so
+vendor/lib/libcamximageformatutils.so
+vendor/lib/libcamxncs.so
+vendor/lib/libcamxstatscore.so
+vendor/lib/libcamxswprocessalgo.so
+vendor/lib/libcamxtintlessalgo.so
 vendor/lib64/android.hardware.camera.provider@2.4-external.so
 vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib64/camera/CFR_para2_OnePlus_AA409_UW_snapshot_v2040.bin
@@ -1142,8 +1146,6 @@ system_ext/lib/libwfduibcsink.so
 system_ext/lib/libwfduibcsrcinterface.so
 system_ext/lib/libwfduibcsrc.so
 system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
--system_ext/priv-app/WfdService/WfdService.apk
--system/framework/WfdCommon.jar
 vendor/bin/wfdhdcphalservice
 vendor/bin/wfdvndservice
 vendor/bin/wifidisplayhalservice
