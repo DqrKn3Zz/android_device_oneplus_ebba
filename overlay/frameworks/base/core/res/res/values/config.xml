@@ -111,6 +111,8 @@
         <item>5000</item>
         <item>8000</item>
         <item>12000</item>
+        <item>16000</item>
+        <item>20000</item>
     </integer-array>
 
     <!-- Array of desired screen brightness in nits corresponding to the lux values
