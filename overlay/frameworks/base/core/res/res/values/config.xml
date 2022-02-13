@@ -351,7 +351,7 @@
     <string name="config_mainBuiltInDisplayCutoutRectApproximation">M 0,0 H 195 V 113 H 0 Z @left</string>
 
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
-    
+
     <!-- The default refresh rate for a given device. Change this value to set a higher default
          refresh rate. If the hardware composer on the device supports display modes with a higher
          refresh rate than the default value specified here, the framework may use those higher
@@ -361,4 +361,7 @@
          config_defaultRefreshRate may be set to 0, in which case the value set for
          config_defaultPeakRefreshRate will act as the default frame rate. -->
     <integer name="config_defaultRefreshRate">90</integer>
+
+    <!-- Flag indicating whether we should enable the adaptive sleep.-->
+    <bool name="config_adaptive_sleep_available">true</bool>
 </resources>
