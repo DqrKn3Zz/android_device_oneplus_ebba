@@ -148,10 +148,12 @@
         <item>145.62</item>
         <item>168.84</item>
         <item>234.9</item>
-        <item>291</item>
-        <item>370</item>
-        <item>492</item>
-        <item>580</item>
+        <item>280</item>
+        <item>320</item>
+        <item>360</item>
+        <item>405</item>
+        <item>450</item>
+        <item>500</item>
     </array>
 
     <!-- An array of floats describing the screen brightness in nits corresponding to the backlight
